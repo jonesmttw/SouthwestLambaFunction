@@ -6,8 +6,8 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "",
-    "region"      : "",
+    "profile"     : "jonesmttw",
+    "region"      : "us-east-1",
     "configuration" : "Release",
     "framework"     : "netcoreapp2.1",
     "function-runtime" : "dotnetcore2.1",
@@ -17,5 +17,6 @@
     "function-name"        : "SampleSouthwest",
     "function-description" : "",
     "tracing-mode"         : "PassThrough",
-    "environment-variables" : ""
+    "environment-variables" : "",
+    "function-role"         : "arn:aws:iam::436947555347:role/DevLambdaExecute"
 }
